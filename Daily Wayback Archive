@@ -1,9 +1,9 @@
-name: Daily Wayback Archive
+ame: Daily Wayback Archive
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This tells GitHub to run this code automatically every day at midnight!
-  workflow_dispatch:      # This allows you to also trigger it manually with a button click
+    - cron: '0 0 * * *'  # Automatically executes every single day at 00:00 UTC
+  workflow_dispatch:      # Allows you to trigger it manually via the Actions button on GitHub
 
 jobs:
   archive:
